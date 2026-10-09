@@ -30,4 +30,6 @@ xiaomi = Car()
 huawei = Car()
 # 3.调用Car的run()函数
 xiaomi.run()
+print(f'xiaomi的地址:{id(xiaomi)}')
 huawei.run()
+print(f'huawei的地址:{id(huawei)}')

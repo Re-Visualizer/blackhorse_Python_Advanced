@@ -1,3 +1,8 @@
+"""
+案例：定义手机类，能开机，关机，拍照
+
+"""
+
 class Phone:
     # 属性
 
@@ -15,3 +20,7 @@ class Phone:
 # 2.创建手机类对象，访问其成员
 iPhone = Phone()
 print(f"iPhone对象：{iPhone}")
+iPhone.open()
+iPhone.take_photo()
+iPhone.close()
+print('-'*60)
